@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Display from "./Display";
-import Buttons from "./Buttons";
+import Display from "../components/Display";
+import Buttons from "../components/Buttons";
 
 const intOrFloat = (value) => {
     if (/[.]/.test(value)) {
