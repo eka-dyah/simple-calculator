@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Display from "../components/Display";
 import Buttons from "../components/Buttons";
 
@@ -165,10 +165,10 @@ const Calculator = () => {
     };
 
     return (
-        <React.Fragment>
+        <>
             <Display display={display} result={result} operator={operator} />
             <Buttons clickHandler={clickHandler} />
-        </React.Fragment>
+        </>
     );
 };
 
