@@ -1,5 +1,3 @@
-import React from "react";
-
 const Display = (props) => {
 	const { display, result, operator } = props;
 
